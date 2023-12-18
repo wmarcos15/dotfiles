@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["calvera-dark.nvim"] = {
+    loaded = true,
+    path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/calvera-dark.nvim",
+    url = "https://github.com/yashguptaz/calvera-dark.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -114,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -128,6 +138,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["midnight.nvim"] = {
+    loaded = true,
+    path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/midnight.nvim",
+    url = "https://github.com/dasupradyumna/midnight.nvim"
+  },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["no-clown-fiesta.nvim.git"] = {
     loaded = true,
@@ -165,6 +185,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/Users/guillermomarcoslara/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,

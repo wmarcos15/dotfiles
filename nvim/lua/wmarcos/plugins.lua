@@ -46,6 +46,10 @@ return packer.startup(function(use)
 
 	-- colorschemes
 	use "https://github.com/aktersnurra/no-clown-fiesta.nvim.git"
+	use ({ 'projekt0n/github-nvim-theme' })
+	use { 'dasupradyumna/midnight.nvim' }
+	use {'nyoom-engineering/oxocarbon.nvim'}
+	use "EdenEast/nightfox.nvim" 
 
 	-- cmp for autocompletion
 	use "https://github.com/hrsh7th/nvim-cmp.git"
@@ -54,22 +58,23 @@ return packer.startup(function(use)
 	use "hrsh7th/cmp-cmdline"
 	use "saadparwaiz1/cmp_luasnip" -- snippets
 	use "hrsh7th/cmp-nvim-lsp"
-  use "hrsh7th/cmp-nvim-lua"
+	use "hrsh7th/cmp-nvim-lua"
+	use 'yashguptaz/calvera-dark.nvim'
 
 	-- snippets
-  use "L3MON4D3/LuaSnip" --snippet engine
-  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
+	use "L3MON4D3/LuaSnip" --snippet engine
+	use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
 	-- LSP
 	use "neovim/nvim-lspconfig" -- enable LSP
-  use "williamboman/mason.nvim" -- simple to use language server installer
-  use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
-  use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
+	use "williamboman/mason.nvim" -- simple to use language server installer
+	use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
+	use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
 
 	use {
-  'nvim-telescope/telescope.nvim', tag = '0.1.4',
+	'nvim-telescope/telescope.nvim', tag = '0.1.4',
 -- or                            , branch = '0.1.x',
-  requires = { {'nvim-lua/plenary.nvim'} }
+	requires = { {'nvim-lua/plenary.nvim'} }
 }
 
 	use {
