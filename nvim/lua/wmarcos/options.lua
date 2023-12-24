@@ -11,8 +11,7 @@ local options = {
 	relativenumber = true,
 	termguicolors = true,
 	hlsearch = false,
-	incsearch = true,
-	textwidth = 80
+	incsearch = true
 }
 
 -- loop to asign each key in options to its value
