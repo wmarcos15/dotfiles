@@ -19,7 +19,7 @@ vim.g.maplocalleader = " "
 --   command_mode = "c",ss
 
 -- Normal --
-keymap("n", "<leader>0", ":colorscheme no-clown-fiesta<cr>", opts)
+keymap("n", "<leader>0", ":colorscheme oxocarbon<cr>", opts)
 -- Better window navigation
 keymap("n", "<S-h>", "<C-w>h", opts) -- navigate left
 keymap("n", "<S-j>", "<C-w>j", opts) -- navigate down
