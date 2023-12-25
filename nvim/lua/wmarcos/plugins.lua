@@ -50,6 +50,7 @@ return packer.startup(function(use)
 	use { 'dasupradyumna/midnight.nvim' }
 	use {'nyoom-engineering/oxocarbon.nvim'}
 	use "EdenEast/nightfox.nvim" 
+	use { "catppuccin/nvim", as = "catppuccin" }
 
 	-- cmp for autocompletion
 	use "https://github.com/hrsh7th/nvim-cmp.git"

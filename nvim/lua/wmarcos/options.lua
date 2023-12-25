@@ -20,3 +20,4 @@ for key, value in pairs(options) do
 end
 
 vim.cmd [[set iskeyword+=-]]
+
