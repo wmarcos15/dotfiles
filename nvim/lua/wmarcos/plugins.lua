@@ -40,9 +40,9 @@ packer.init {
 
 return packer.startup(function(use)
 
-  use "wbthomason/packer.nvim" -- Have packer manage itself
-  use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+	use "wbthomason/packer.nvim" -- Have packer manage itself
+	use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
+	use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
 	-- colorschemes
 	use "https://github.com/aktersnurra/no-clown-fiesta.nvim.git"
@@ -76,7 +76,7 @@ return packer.startup(function(use)
 	'nvim-telescope/telescope.nvim', tag = '0.1.4',
 -- or                            , branch = '0.1.x',
 	requires = { {'nvim-lua/plenary.nvim'} }
-}
+	}
 
 	use {
 			'nvim-treesitter/nvim-treesitter',
@@ -92,15 +92,22 @@ return packer.startup(function(use)
     config = function() require("nvim-autopairs").setup {} end
 }
 
-  use({
-    "kylechui/nvim-surround",
-    tag = "*", -- Use for stability; omit to use `main` branch for the latest features
-    config = function()
-        require("nvim-surround").setup({
-            -- Configuration here, or leave empty to use defaults
-        })
-    end
-  })
+	use({
+	"kylechui/nvim-surround",
+	tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+	config = function()
+		require("nvim-surround").setup({
+			-- Configuration here, or leave empty to use defaults
+		})
+	end
+	})
+
+	use {
+	'rmagatti/goto-preview',
+	config = function()
+	require('goto-preview').setup {}
+	end
+	}
 
   -- Automatically set up your configuration after cloning packer.nvim
   if PACKER_BOOTSTRAP then

@@ -1,8 +1,10 @@
 
 local servers = {
-  "lua_ls",
+	"lua_ls",
 	"pyright",
 	"jsonls",
+	"tsserver",
+	"clangd",
 }
 
 local settings = {
