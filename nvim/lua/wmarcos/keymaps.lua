@@ -19,11 +19,11 @@ vim.g.maplocalleader = " "
 --   command_mode = "c",ss
 
 -- Normal --
-keymap("n", "<leader>0", ":colorscheme oxocarbon<cr>", opts)
+keymap("n", "<leader>0", ":so ~/.config/nvim/lua/wmarcos/colorscheme.lua<cr>", opts)
 -- Better window navigation
 keymap("n", "<S-h>", "<C-w>h", opts) -- navigate left
 keymap("n", "<S-j>", "<C-w>j", opts) -- navigate down
-keymap("n", "<S-k>", "<C-w>k", opts) -- navigate up
+keymap("n", "<S-k>", "<C-w>k", opts) -- navigate up, TO CHANGE
 keymap("n", "<S-l>", "<C-w>l", opts) -- navigate right
 
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
@@ -44,4 +44,4 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
-vim.keymap.set({"n", "v"}, "<leader>p", [["_dP"]])
+vim.keymap.set({"n", "v"}, "<leader>p", [["_dP"]]) -- Best keymap ever (by ThePrimeagean)
