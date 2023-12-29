@@ -109,6 +109,8 @@ return packer.startup(function(use)
 	end
 	}
 
+	use "terrortylor/nvim-comment"
+
   -- Automatically set up your configuration after cloning packer.nvim
   if PACKER_BOOTSTRAP then
     require("packer").sync()
