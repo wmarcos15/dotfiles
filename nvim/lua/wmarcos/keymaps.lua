@@ -27,6 +27,7 @@ keymap("n", "<S-k>", "<C-w>k", opts) -- navigate up, TO CHANGE
 keymap("n", "<S-l>", "<C-w>l", opts) -- navigate right
 
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>w", ":Ex<cr>", opts)
 
 -- splits
 keymap("n", "<leader>v", ":vertical split<cr>", opts)
