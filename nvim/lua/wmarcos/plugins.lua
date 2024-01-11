@@ -87,10 +87,10 @@ return packer.startup(function(use)
 
 	use "theprimeagen/harpoon"
 
-	use {
-	"windwp/nvim-autopairs",
-    config = function() require("nvim-autopairs").setup {} end
-}
+-- 	use {
+-- 	"windwp/nvim-autopairs",
+--     config = function() require("nvim-autopairs").setup {} end
+-- }
 
 	use({
 	"kylechui/nvim-surround",
