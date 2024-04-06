@@ -45,6 +45,7 @@ return packer.startup(function(use)
 	use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
 	-- colorschemes
+	use "folke/tokyonight.nvim"
 	use "https://github.com/aktersnurra/no-clown-fiesta.nvim.git"
 	use ({ 'projekt0n/github-nvim-theme' })
 	use { 'dasupradyumna/midnight.nvim' }
@@ -102,6 +103,15 @@ return packer.startup(function(use)
 		})
 	end
 	})
+
+	 use({
+      "folke/trouble.nvim",
+      config = function()
+          require("trouble").setup {
+              icons = true,
+          }
+      end
+  })
 
 	use {
 	'rmagatti/goto-preview',

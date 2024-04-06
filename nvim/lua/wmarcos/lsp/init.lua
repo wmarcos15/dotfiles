@@ -6,3 +6,8 @@ end
 require "wmarcos.lsp.mason"
 require("wmarcos.lsp.handlers").setup()
 require "wmarcos.lsp.null-ls"
+
+vim.diagnostic.config({
+    virtual_text = true
+})
+
